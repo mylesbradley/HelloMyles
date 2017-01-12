@@ -1,0 +1,5 @@
+A) I got your screenshot
+
+B) It looks like the only thing that you have committed is the individual file, not the entire project.    You will need to revisit this process to make sure all your work for the project is there. 
+
+c) I'm not 100% sure that the repository is private --- can you double check that?
