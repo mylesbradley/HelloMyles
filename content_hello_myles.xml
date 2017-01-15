@@ -16,5 +16,53 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello Myles Bradley Change committment" />
+        android:text="Inches to feet app"
+        android:id="@+id/textView"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="Convert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button2"
+        android:layout_marginTop="14dp"
+        android:layout_below="@+id/editText"
+        android:layout_alignParentStart="true"
+        android:onClick="Convert" />
+
+    <TextView
+        android:text="Inches"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:layout_below="@+id/button2"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="18dp" />
+
+    <TextView
+        android:text="Feet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button2"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/textView3" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:inputType="numberDecimal"
+        android:ems="5"
+        android:id="@+id/editText"
+        android:layout_marginTop="19dp"
+        android:layout_below="@+id/textView"
+        android:layout_toEndOf="@+id/textView2"
+        android:layout_marginStart="19dp" />
+    (View view){
+
+    }
+        android:layout_below="@+id/editText" />
 </RelativeLayout>
