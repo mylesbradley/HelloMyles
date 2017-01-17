@@ -16,7 +16,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Inches to feet app"
+        android:text="Feet to Inches app"
         android:id="@+id/textView"
         android:layout_marginTop="20dp"
         android:layout_alignParentTop="true"
